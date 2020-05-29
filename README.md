@@ -36,8 +36,6 @@ Le jeu comporte des différentes fonctionnalités :
 
 **Trouvat Jeremy :** Amélioration de bâtiment, économie, achat de troupes, champ de bataille
 
-## Structure algorithmique
-
 ## Installation
 
 ### Pour modification :
@@ -70,7 +68,7 @@ __Installation :__
 ### Pour jouer :
 * Téléchargez simplement le lanceur de notre jeu, pour ne pas avoir à installer une base de données en local la page de login a été désactivée pour la démonstration : [Le jeu](https://github.com/PierreBouffartigue/ProjetDev/tree/master/JeuJouable)
 
-* Puis glissez les trois fichiers dans un dossier et lancez le ProjetDev.exe
+* Puis glissez les cinq fichiers dans un dossier et lancez le ProjetDev.exe
 
 
 ##  Utilisation

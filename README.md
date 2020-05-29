@@ -32,7 +32,7 @@ Le jeu comporte des différentes fonctionnalités :
 
 **Malbec Thomas :** Gestion des sons d'ambiance, apparition des tornades, une touche d'aide avec un texte apparaissent au lancement du jeu, système de destruction de bâtiment
 
-**Bouffartigue Pierre :** Gestion de l'apparition dans villages dans la scène principale, menu de lancement, système d'authentification, village ennemi, menu de pause, création de bâtiment
+**Bouffartigue Pierre :** Gestion d'apparition des villages, menu de lancement, système d'authentification, village ennemi, menu de pause, création de bâtiment
 
 **Trouvat Jeremy :** Amélioration de bâtiment, économie, achat de troupes, champ de bataille
 

@@ -55,6 +55,8 @@ __Installation :__
 
 * Vous avez désormais de quoi faire fonctionner l'authentification en local et il sera possible de modifier l'adresse du serveur web directement en jeu en allant sur la scène "Login" puis en allant sur le GameObject Canva, dessus se trouve attaché un script "server" avec une ligne modifiable "url" comportant l'adresse. 
 
+* Les identifiants du compte par défaut sont en login : unity en mot de passe : unity1
+
 * Une fois sur unity créez un jeu 2D, une fois dans les assets supprimer ce qu'elles contiennent et glissez les fichiers du jeu trouvables [ici](https://github.com/PierreBouffartigue/ProjetDev/tree/master/Jeu)
 
 * Rendez vous dans main/scenes et cliquez sur une des scènes pour y accéder.
@@ -66,7 +68,7 @@ __Installation :__
 * Félicitations vous avez accès à notre jeu et pouvez désormais le modifier et y jouer.
 
 ### Pour jouer :
-Téléchargez simplement le lanceur de notre jeu : 
+Téléchargez simplement le lanceur de notre jeu, pour ne pas avoir à installer une base de données en local la page de login a été désactivée pour la démonstration : 
 
 ##  Utilisation
 Le jeu peut être réutilisé et modifié si nos crédits apparaissent lors de son utilisation, il en est de même pour les scripts.

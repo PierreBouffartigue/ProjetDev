@@ -7,13 +7,9 @@ public class ChoiceDisplay : MonoBehaviour
 {
     public GameObject PCCText, PCSText, PCBText, ECCText, ECSText, ECBText;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
+        // Affiche du nobre de troupes pour chaque type d'armée du joueur et l'ennemie
         PCCText.GetComponent<Text>().text = PlayerStats.CavalryTroops.ToString();
         PCSText.GetComponent<Text>().text = PlayerStats.SpearTroops.ToString();
         PCBText.GetComponent<Text>().text = PlayerStats.BowTroops.ToString();

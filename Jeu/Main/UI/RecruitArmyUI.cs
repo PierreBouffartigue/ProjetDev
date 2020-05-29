@@ -12,17 +12,16 @@ public class RecruitArmyUI : MonoBehaviour
 
     void Start()
     {
+        // Récupère le composant bouton forge
         btn = BoutonForge.GetComponent<Button>();
+        // Ecoute le bouton forge
         btn.onClick.AddListener(TaskOnClick);
     }
 
-    void Update()
-    {
-        
-    }
-
+    // Quand le bouton de forge est cliqué
     void TaskOnClick()
     {
+        // Affiche l'interface de recrutement
         armyRecruitUI.SetActive(true);
     }
 }

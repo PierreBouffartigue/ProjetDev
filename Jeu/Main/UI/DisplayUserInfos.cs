@@ -12,18 +12,18 @@ public class DisplayUserInfos : MonoBehaviour
     public GameObject SpearDisplay;
     public GameObject BowDisplay;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
+        // Affiche le nom du joueur
         NameDisplay.GetComponent<Text>().text = PlayerStats.user;
+        // Affiche l'argent du joueur
         MoneyDisplay.GetComponent<Text>().text = "Pieces: " + PlayerStats.money;
 
+        // Affiche le nombre de cavaliers
         CavalryDisplay.GetComponent<Text>().text = PlayerStats.CavalryTroops.ToString();
+        // Affiche le nombre de lanciers
         SpearDisplay.GetComponent<Text>().text = PlayerStats.SpearTroops.ToString();
+        // Affiche le nombre d'archers
         BowDisplay.GetComponent<Text>().text = PlayerStats.BowTroops.ToString();
     }
 }

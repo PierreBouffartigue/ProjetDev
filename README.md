@@ -28,7 +28,8 @@ Le jeu comporte des différentes fonctionnalités :
 * Un nuage qui se déplace mais qui a été désactivé pour des soucis de performances et car il sort de l'écran. 
 
 ## Répartition des tâches
-** Tout le monde :** Graphismes
+**Tout le monde :** Graphismes
+
 **Malbec Thomas :** Gestion des sons d'ambiance, apparition des tornades, une touche d'aide avec un texte apparaissent au lancement du jeu, système de destruction de bâtiment
 
 **Bouffartigue Pierre :** Gestion de l'apparition dans villages dans la scène principale, menu de lancement, système d'authentification, village ennemi, menu de pause, création de bâtiment
@@ -40,10 +41,29 @@ Le jeu comporte des différentes fonctionnalités :
 ## Installation
 
 ### Pour modification :
-**Prérequis :**
+__Prérequis :__
 - Un serveur local (Wamp conseillé)
 - Un serveur web
 - Unity 2019.3.11f1, l'utilisation d'une version différent peut empêcher le bon fonctionnement du jeu.
+- L'IDE Visual Studio Code est inclus avec Unity mais vous pouvez en utiliser en autre si besoin.
+
+__Installation :__
+* Les identifiants utilisés pour phpMyAdmin sont ceux par défaut donc en login : root et rien en mot de passe
+
+* Créer une base de donnée MariaDB nommée "unity" (par défaut) puis importer la [base de données](https://github.com/PierreBouffartigue/ProjetDev/tree/master/Base%20de%20donn%C3%A9es)
+* Lancez wamp et créez un répertoire WWW en mettant  à l'adresse [http://localhost/unity/api/](http://localhost/unity/api/) le fichier [index.php](https://github.com/PierreBouffartigue/ProjetDev/tree/master/Serveur%20web)
+
+* Vous avez désormais de quoi faire fonctionner l'authentification en local et il sera possible de modifier l'adresse du serveur web directement en jeu en allant sur la scène "Login" puis en allant sur le GameObject Canva, dessus se trouve attaché un script "server" avec une ligne modifiable "url" comportant l'adresse. 
+
+* Une fois sur unity créez un jeu 2D, une fois dans les assets supprimer ce qu'elles contiennent et glissez les fichiers du jeu trouvables [ici](https://github.com/PierreBouffartigue/ProjetDev/tree/master/Jeu)
+
+* Rendez vous dans main/scenes et cliquez sur une des scènes pour y accéder.
+
+* Dans file -> build settings en haut à gauche de l'éditeur ou par la suite de touches Ctrl + Shift + B vous aurez accès au options pour construire le jeu, il peut être utilisé sur plusieurs supports (web, consoles, mobile, pc) mais il faudra adapter les interfaces. 
+
+* Donc une fois dans ce menu faites glisser les scènes une à une dans cet ordre : Scène principale (0), menu de lancement (1), login (2).
+
+* Félicitations vous avez accès à notre jeu et pouvez désormais le modifier et y jouer.
 
 ### Pour jouer :
 Téléchargez simplement le lanceur de notre jeu : 

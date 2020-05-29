@@ -68,7 +68,7 @@ __Installation :__
 * Félicitations vous avez accès à notre jeu et pouvez désormais le modifier et y jouer.
 
 ### Pour jouer :
-Téléchargez simplement le lanceur de notre jeu, pour ne pas avoir à installer une base de données en local la page de login a été désactivée pour la démonstration : 
+Téléchargez simplement le lanceur de notre jeu, pour ne pas avoir à installer une base de données en local la page de login a été désactivée pour la démonstration : [Le jeu](https://cdn.discordapp.com/attachments/698581960179843262/715885602846933033/Projet_Dev.pdf)
 
 ##  Utilisation
 Le jeu peut être réutilisé et modifié si nos crédits apparaissent lors de son utilisation, il en est de même pour les scripts.
